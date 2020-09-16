@@ -1,5 +1,5 @@
 /* 
-    each compoment(buttons, navigation bar and etc) will have theyre own mixin. Mixin will contain css property that used to theme the component.
+    each compoment(buttons, navigation bar and etc) will have their own mixin. Mixin will contain css property that used to theme the component.
     A property that isn't declare will be set as default value
 */
 #navigation-bar-theme() {
@@ -53,5 +53,13 @@
 #chartblock-theme() {
     box-shadow: 0 4px 18px 0 rgba(66, 199, 255, 0.08), 0 3px 10px 0 rgba(31,133,175,0.1), 0 2px 5px 0 rgba(10,50,60,0.15);
     background: green;
-    resize-border-color: #29B6F6
+    resize-border-color: #29B6F6;
+
+    .settings {
+        typography: Monospace;
+
+        .option-pane {
+            background: gray
+        }
+    }
 }
