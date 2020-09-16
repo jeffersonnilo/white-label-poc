@@ -1,0 +1,57 @@
+/* 
+    Ideally, each compoment(buttons, navigation bar and etc) will have theyre own mixin. Mixin will contains css property that used to theme the component.
+    A property that isn't declare will be set as default value
+*/
+#navigation-bar-theme() {
+    background : #f9f6f8;
+    typography: Monospace;
+}
+
+#button-primary-theme() {
+    typography: Monospace;
+    
+    .normal {
+        background: #f0eaee;
+        text-color: black;
+        border-color:  #dbd7da;
+    }
+
+    .hover {
+        background: #ffffff;
+        text-color: #302b2c;
+        border-color: #f0eaee;
+    }
+
+    .active {
+        background: none;
+        text-color: none;
+        border-color:  none;
+    }
+
+    .focus {
+        background: none;
+        text-color: none;
+        border-color:  none;
+    }
+
+    .disabled {
+        background: none;
+        text-color: none;
+        border-color: none;
+    }
+}
+
+#sidebar-theme() {
+}
+
+#modal-theme() {
+}
+
+#table-theme() {
+}
+
+#chartblock-theme() {
+    box-shadow: 0 4px 18px 0 rgba(66, 199, 255, 0.08), 0 3px 10px 0 rgba(31,133,175,0.1), 0 2px 5px 0 rgba(10,50,60,0.15);
+    background: green;
+    resize-border-color: #29B6F6
+}

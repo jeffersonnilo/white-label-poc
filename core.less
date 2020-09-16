@@ -1,0 +1,43 @@
+
+/*
+    core.less wont be included in variametrix package. 
+    
+    Upon uploading package we will include this in request so backend can compile this into CSS.
+*/
+:root {
+    --chart-block-background:          #chartblock-theme[background];
+    --chart-block-box-shadow:          #chartblock-theme[box-shadow];
+    --chart-block-resize-border-color: #chartblock-theme[resize-border-color];
+
+
+    /* 
+        Normal state 
+    */
+    --button-primary-background:   #button-primary-theme.normal()[background];
+    --button-primary-text-color:   #button-primary-theme.normal()[text-color];
+    --button-primary-border-color: #button-primary-theme.normal()[border-color];
+    /* 
+        Hover state 
+    */
+    --button-primary-hover-background:   #button-primary-theme.hover()[background];
+    --button-primary-hover-text-color:   #button-primary-theme.hover()[text-color];
+    --button-primary-hover-border-color: #button-primary-theme.hover()[border-color];
+    /*
+        Active state 
+    */
+    --button-primary-active-background:   #button-primary-theme.active()[background];
+    --button-primary-active-text-color:   #button-primary-theme.active()[text-color];
+    --button-primary-active-border-color: #button-primary-theme.active()[border-color];
+    /* 
+        Focus state
+    */
+    --button-primary-focus-background:   #button-primary-theme.focus()[background];
+    --button-primary-focus-text-color:   #button-primary-theme.focus()[text-color];
+    --button-primary-focus-border-color: #button-primary-theme.focus()[border-color];
+    /*  
+        Disabled state
+    */
+    --button-primary-disabled-background:   #button-primary-theme.disabled()[background];
+    --button-primary-disabled-text-color:   #button-primary-theme.disabled()[text-color];
+    --button-primary-disabled-border-color: #button-primary-theme.disabled()[border-color];
+}

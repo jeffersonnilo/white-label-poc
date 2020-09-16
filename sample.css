@@ -1,0 +1,41 @@
+
+/* 
+  Output of core less.
+*/
+
+:root {
+  --chart-block-background: green;
+  --chart-block-box-shadow: 0 4px 18px 0 rgba(66, 199, 255, 0.08), 0 3px 10px 0 rgba(31, 133, 175, 0.1), 0 2px 5px 0 rgba(10, 50, 60, 0.15);
+  --chart-block-resize-border-color: #29B6F6;
+  
+  /* 
+        Normal state 
+    */
+  --button-basic-background: #f0eaee;
+  --button-basic-text-color: black;
+  --button-basic-border-color: #dbd7da;
+  /* 
+        Hover state 
+    */
+  --button-basic-hover-background: #f0eaee;
+  --button-basic-hover-text-color: black;
+  --button-basic-hover-border-color: #dbd7da;
+  /*
+        Active state 
+    */
+  --button-basic-active-background: #f0eaee;
+  --button-basic-active-text-color: black;
+  --button-basic-active-border-color: #dbd7da;
+  /* 
+        Focus state
+    */
+  --button-basic-focus-background: #f0eaee;
+  --button-basic-focus-text-color: black;
+  --button-basic-focus-border-color: #dbd7da;
+  /*  
+        Disabled state
+    */
+  --button-basic-disabled-background: #f0eaee;
+  --button-basic-disabled-text-color: black;
+  --button-basic-disabled-border-color: #dbd7da;
+}
